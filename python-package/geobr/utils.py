@@ -298,7 +298,7 @@ def select_metadata(geo, simplified=None, year=False):
         # Select data type
         metadata = select_simplified(metadata, simplified)
 
-    if year != False:
+    if year is not False:
         # Verify year input
         metadata = select_year(metadata, year)
 
